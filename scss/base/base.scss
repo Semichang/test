@@ -1,0 +1,19 @@
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+
+  @extend %baseFont;
+}
+
+.container-max {
+  max-width: calc($max-container + 2 * $container-padding);
+  padding: 0 $container-padding;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: calc($container + 2 * $container-padding);
+  padding: 0 $container-padding;
+  margin: 0 auto;
+}
